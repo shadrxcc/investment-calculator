@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'satoshi';
+  src: url(./assets/Satoshi-Variable.ttf);
+}
+
 body {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: satoshi;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #242a28; */
